@@ -75,7 +75,10 @@
 
 .gameH1{
   position: relative;
-  left: 45.5%;
+  text-align: center;
+  width: 200px;
+  left: 44.8%;
+  margin: 10px;
   color:antiquewhite;
   font-family: 'Chakra Petch', sans-serif;
 }
