@@ -1,0 +1,120 @@
+.startH1{
+  position: absolute;
+  left: 35%;
+  top: 1%;
+  font-size: 8rem;
+  z-index: 3;
+  color:antiquewhite;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.fadeBtnClass{
+  position: absolute;
+  left: 44%;
+  top: 40%;
+  width: 250px;
+  height: 120px;
+  border-radius: 10px;
+  z-index: 3;
+  font-size: 2rem;
+  opacity: 80%;
+  background-color: #9198e5;
+  color:antiquewhite;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.fadeBtnClass:hover{
+  cursor: pointer;
+  opacity: 100%;
+}
+
+.startPageFade{
+  transition: 1s all ease-out;
+  opacity: 0;
+}
+
+.gamePageFade{
+  transition: 1s all ease-in;
+  opacity: 1;
+}
+
+.gamePageClass{
+  z-index: 2;
+  opacity: 0;
+}
+
+#game div {
+  position: relative;
+  border: 1px solid antiquewhite;
+  border-radius: 20px;
+  width:20%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  left: 7%;
+}
+
+.placeholder{
+  position: relative;
+  border-radius: 20px;
+  width:20%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  left: 7%;
+}
+
+.complete{
+  opacity: 0;
+}
+
+.complete1{
+  transition: 0.5s all ease-in;
+  opacity: 1;
+}
+
+.gameH1{
+  position: relative;
+  left: 45.5%;
+  color:antiquewhite;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.readOut{
+  position: relative;
+  text-align: center;
+  right: 1%;
+  color:antiquewhite;
+  font-family: 'Chakra Petch', sans-serif;
+}
+.resetClass{
+  position: relative;
+  left: 46.8%;
+  border-radius: 5px;
+  width: 150px;
+  height: 60px;
+  opacity: 80%;
+  background-color: #e66465;
+  color:antiquewhite;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.resetClass:hover{
+  cursor: pointer;
+  opacity: 100%;
+}
+
+html{
+  min-height: 100%;
+  position:relative;
+}
+
+body{
+  background: linear-gradient(#e66465, #9198e5);
+  height: 100%;
+  width: 100%;
+}
+
+.yellow, .red, .purple, .blue, .green, .pink, .orange:hover{
+  cursor: pointer;
+}

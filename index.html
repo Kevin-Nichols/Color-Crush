@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap');
+      </style>
+  </head>
+  <body>
+    <div id="startPage" class="startPageClass">
+      <h1 class="startH1">Color Crush!</h1>
+      <button id="fadeBtn" class="fadeBtnClass">Start Game</button>
+    </div>
+      <div id="gamePage" class="gamePageClass">
+        <h1 class="gameH1">Color Crush</h1>
+        <div id="game">
+          <section class="placeholder">
+
+          </section>
+        </div>
+        <span class="readOut">
+          <h2 class="guessCounterClass" id="guessCounter">Number of guesses: 0</h2>
+          <h2 id="currentHighScore"></h2>
+          <p class="complete">You win!</p>
+          <p id="score"></p>
+          <p id="lowScore"></p>
+          <button id="reset" class="resetClass" onClick="window.location.reload()">Restart Game</button>
+        </span>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>
