@@ -1,4 +1,4 @@
-const gameContainer = document.getElementById("game"); 
+const gameContainer = document.getElementById("game");  
 
 const COLORS = [
   "red",
@@ -122,7 +122,6 @@ startBtn.addEventListener('click', function(){
   startPage.classList.add('startPageFade');
   setTimeout(function(){
     startPage.remove();
-    startBtn.remove();
   }, 1000)
 })
 

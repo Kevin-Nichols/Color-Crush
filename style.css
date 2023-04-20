@@ -41,6 +41,7 @@
 .gamePageClass{
   z-index: 2;
   opacity: 0;
+  pointer-events: none;
 }
 
 #game div {
