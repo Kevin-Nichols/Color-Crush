@@ -146,3 +146,9 @@ resetBtn.addEventListener('click', function(){
   window.location.reload();
 });
 
+const scoreReset = document.getElementById('scoreReset');
+scoreReset.addEventListener('click', function(){
+  localStorage.clear();
+  window.location.reload();
+});
+

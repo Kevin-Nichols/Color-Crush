@@ -93,7 +93,7 @@
 }
 .resetClass{
   position: relative;
-  left: 46.8%;
+  left: 46.6%;
   border-radius: 5px;
   width: 150px;
   height: 60px;
@@ -104,6 +104,22 @@
 }
 
 .resetClass:hover{
+  cursor: pointer;
+  opacity: 100%;
+}
+
+.scoreReset{
+  position: relative;
+  left: 48%;
+  border-radius: 5px;
+  width: 130px;
+  height: 40px;
+  opacity: 80%;
+  background-color: #e66465;
+  color:antiquewhite;
+  font-family: 'Chakra Petch', sans-serif;
+}
+.scoreReset:hover{
   cursor: pointer;
   opacity: 100%;
 }
