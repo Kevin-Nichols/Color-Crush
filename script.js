@@ -58,6 +58,12 @@ let card1 = null;
 let card2 = null;
 let complete = document.querySelector('p');
 let lowScore = localStorage.getItem("low-score");
+if(lowScore === null){
+  lowScore = "Low score has not been set"
+} else{
+  lowScore = localStorage.getItem("low-score");
+};
+
 function handleCardClick(e) {
   let targetCard = e.target;
   if(targetCard.classList.contains('blank')) return;
@@ -123,5 +129,20 @@ startBtn.addEventListener('click', function(){
   setTimeout(function(){
     startPage.remove();
   }, 1000)
-})
+});
+
+function restartFade(){
+  gamePage.classList.remove('gamePageClass');
+  gamePage.classList.add('gamePageFade');
+  startPage.classList.remove('startPageClass');
+  startPage.classList.add('startPageFade');
+  setTimeout(function(){
+    startPage.remove();
+  }, 1000)
+};
+
+const resetBtn = document.getElementById('reset');
+resetBtn.addEventListener('click', function(){
+  window.location.reload();
+});
 
